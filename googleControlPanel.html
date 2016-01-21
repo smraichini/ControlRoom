@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="controlPanel.js"></script>
+</head>
+
+<body>
+  <br>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+
+          <div class="panel panel-default text-center" >
+          <div class="panel-body">
+
+            <div class="col-xs-2 col-xs-offset-5">
+              <div class="row">
+                <div class="btn-group" role="group">
+                  <a href="googleIndex.html" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-home"></a>
+                  <a href="googleStatistics.html" class="btn btn-default btn-lg"><span class="glyphicon glyphicon glyphicon-list-alt"></a>
+                </div>
+              </div>
+              </div>
+
+            <img src="new-google-logo-2015.png" class="img-responsive">
+
+            <div class="col-xs-6 col-xs-offset-3">
+              <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-info" onclick="generate()"><span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span> GENERA</button>
+              <button type="button" class="btn btn-success" onclick="checkFields()"><span class="glyphicon glyphicon glyphicon-floppy-save" aria-hidden="true"></span> SALVA</button>
+              <button type="button" class="btn btn-danger" onclick="deleteData()"><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span> CANCELLA</button>
+            </div>
+
+            <br>
+            <br>
+            <input type="text" class="form-control" placeholder="Server" id="Nome" name="Nome">
+            <br>
+            <input type="text" class="form-control" placeholder="Luogo" id="Luogo" name="Luogo">
+            <br>
+            <input type="text" class="form-control" placeholder="Alert" id="Alert" name="Alert">
+            <br>
+
+        </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

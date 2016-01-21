@@ -1,0 +1,1 @@
+Server R7;Perugia;Host spento.;Server A1;London;Host inesistente.;Server A1;London;Hard Disk danneggiato.;Server Z0;New York;Hard Disk danneggiato.;Server R7;Sydney;Host inesistente.;Server Z0;Tokyo;Host inesistente.;Server Z0;Sydney;Server non raggiungibile.;
